@@ -1,5 +1,9 @@
 #include <chrono>
 
+namespace jle
+
+{
+
 class stopwatch
 {
     using clock = std::chrono::high_resolution_clock;
@@ -21,3 +25,5 @@ private:
 
     clock::time_point  start;
 };
+
+}
