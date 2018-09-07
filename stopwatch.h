@@ -1,7 +1,6 @@
 #include <chrono>
 
 namespace jle
-
 {
 
 class stopwatch
